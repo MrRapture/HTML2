@@ -1,0 +1,205 @@
+﻿<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=2">
+
+<link rel="stylesheet" href="css/stylesheet.css"/>
+
+<title>CSS GRID</title>
+
+<style>
+    .container > div:nth-child(odd) {
+        background-color: #34495E;
+        padding: 1em;
+    }
+    .p0{
+        font-family: Arial;
+        font-size: 100px;
+    }
+    .select{
+    background-color: white;
+    padding: 1.6em;
+    }
+    .img {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        padding:20px;
+    }
+    .list-container{
+        text-align:center;
+        height:20px;
+    }
+    .ul{
+        list-style-type:square;
+    }
+    .footer-container{ 
+        padding: 1em;
+    }
+</style>
+
+<html>
+
+<body>
+
+    <center>
+        <a href="index 2.html">
+            Go To Second Page
+            <input style="color:black" type="submit" id="usersubmit">
+        </a>
+    </center>
+
+    <div id="box">
+        <div class="container">
+            <div class="picture">
+                <img src="images/Watch Back Ground Box1.jpg">
+                <label style="color:pink" for="Login to Account">Login</label>
+                <input type="text" id="userId" name="Id">
+                <label style="color:pink" for="Password">Password</label>
+                <input type="text" id="userpassword" name="Password">
+                <label style="color:pink"></label>
+                <a href="https://www.amazon.com/watches/s?k=watches">
+                    <input style="color:black" type="submit" id="usersubmit">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <center>
+        <div id="myChange">
+            <p1 style=" font-family: arial">
+                Hello! Thank you for visiting our page we would like to welcome you to the family. Here at Watches Unlimited
+                we have a wide variety to choose from. We have durable and beautiful watches for all budgets and ages.
+                Men and womens classic, dress and sport analog watches are a big hit here at Watches Unlimited. We also have
+                a wide varity of digital watches for atheletes, casual users and for safety use for your loved ones. We strive
+                to take pride in each individual watch. Take advantage of our 2 year warrenty and replace any watch with no
+                frustration or hassle. Thank you again and please look locate our information on the bottom of our page.
+            </p1>
+        </div>
+    </center>
+
+    <br><br><br>
+
+    <center>
+        <p0>Please contact our friends and business partners to see their excluse watch collections</p0>
+    </center>
+
+    <br>
+
+    <center>
+        <table>
+            <tr>
+                <td style="padding:10px">Jimmys Watches, Phone# 210-234-9089</td>
+                <td style="padding:10px">Jason's Guild, Phone# 254-986-4745</td>
+                <td style="padding:10px">Debbies Wrist Watches, Phone# 254-969-8745</td>
+            </tr>
+            <tr>
+                <td style="padding:10px">Chang's Collection, Phone# 859-888-9659
+                <td style="padding:10px">Euro Autority, Phone# 459-999-8546
+                <td style="padding:10px">Something Extra, Phone# 562-969-8788</td>
+            </tr>
+        </table>
+    </center>
+
+    <center>
+        <h1>
+            Please Select your watch and order through our Amazon affiliate.
+        </h1>
+    </center>
+
+        <center><!--Trying to center this list-->
+            <ul align="center"> <!--This finally centered the list-->
+                <li style="text-align:center">
+                    Chorme Bands
+                </li>
+                <li style="text-align: center">
+                        Leather Bands
+                </li>
+                <li style="text-align: center">
+                    Colorful Bands
+                </li>
+            </ul>
+        </center>   
+
+    <div class="container2">
+        <img src="images/watch 3.webp" alt="Watch 1" class="img">
+        <p2>
+            This is our beautiful chrome link watch.
+            this fabolus peace will attract attention
+            across the room. It looks expensive but
+            it is rather affordable with great quility.
+        </p2>
+        <br>
+    </div>
+
+
+    <div class="select" alt="select" style="">
+        Enter QTY to order this limited time chrome link beauty.
+        <h3>Price = $252.00</h3>
+        <label for="QTY:">QTY:</label>
+        <input type="text" id="userId" name="Id"> <!--This is the QTY Box underneath the first watch-->
+        <a href="https://www.amazon.com/watches/s?k=watches">
+            <input style="color:black" type="submit" id="usersubmit">
+        </a>
+        <br />
+    </div>
+
+    <div class="container3">
+        <img src="images/watch 2.jpg" alt="Watch 2" class="img">
+        <p3>
+            This is from our dark collection. The
+            black stallion watch is made of the
+            highest quility with temper proof
+            glass and only the finest leather
+            straps.
+        </p3>
+    </div>
+
+    <div class="select" alt="select" style="">
+        Enter QTY below to order this limited time beauty.
+        <h3>Price = $110.99</h3>
+        <label for="QTY:">QTY:</label>
+        <input type="text" id="userId" name="Id"> <!--This is the QTY Box underneath the second watch-->
+        <a href="https://www.amazon.com/watches/s?k=watches">
+            <input style="color:black" type="submit" id="usersubmit">
+        </a>
+    </div>
+
+    <div class="container4">
+        <img src="images/watch 1.webp" alt="Watch 3" class="img">
+        <p4>
+            This gem has been assembled in switzerland
+            by the best watch makers in the business.
+            This perfectly crafted piece is very
+            durable and looks fantastic in casual
+            wear.
+        </p4>
+    </div>
+
+    <div class="select" alt="select" style="">
+        Enter QTY below to order this limited time beauty.
+        <h3>Price = $66.99</h3>
+        <label for="QTY:">QTY:</label>
+        <input type="text" id="userId" name="Id"> <!--This is the QTY Box underneath the third watch-->
+        <a href="https://www.amazon.com/watches/s?k=watches">
+            <input style="color:black" type="submit" id="usersubmit">
+        </a>
+    </div>
+
+</body>
+
+</html>
+
+<div class="footer-container">
+    <span>
+        <p5>Contact# 210-896-6652</p5>
+    </span>
+    <img src="images/watches footer.jpg" alt="watch footer" width="200" height="200">
+    <span>
+        <p6>
+            Email: wunlim@gmail.com       
+        </p6>
+    </span>
+</div>

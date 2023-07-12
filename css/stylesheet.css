@@ -1,0 +1,239 @@
+﻿body {
+    background-color: green;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.box{
+    border-block:dotted;
+}
+.div{
+    width: 100vw;
+    height: 100vh;
+}
+p0{
+    font-family:Arial;
+    font-size:30px;
+    color:white;
+}
+p1 {
+    text-align: center;
+    font-size:20px;
+}
+p2{
+    background-color:purple;
+}
+p3 {
+    background-color: orange;
+}
+p4 {
+    background-color: #EC407A;
+}
+p5 {
+    text-align: left;
+    font-size: 50px;
+}
+p6 {
+    text-align: right;
+    font-size: 50px;
+}
+.picture{
+    grid-area: photo;
+}
+.picture>img{
+    align-content: center, center;
+    object-fit: cover;
+    padding: 2em;
+    width: 50%;
+}
+.container {
+    display: grid;
+    background-color: darkgrey;
+    padding: 30px;
+    padding-block: auto;
+}
+.picture{
+    padding:50px;
+}
+.container2 {
+    display: grid;
+    grid-template-columns: 23%;
+    padding: 20px;
+    padding-block: auto;
+}
+.container3 {
+    display: grid;
+    grid-template-columns: 23%;
+    padding: 20px;
+    padding-block: auto;
+}
+.container4 {
+    display: grid;
+    grid-template-columns: 23%;
+    padding: 20px;
+    padding-block: auto;
+}
+.select {
+    display: grid;
+    grid-template-columns: 23%;
+    background-color: white;
+    padding: 20px;
+    padding-block: auto;
+}
+tr{
+    color: white;
+}
+label{
+    position: center, center;
+    color: #659;
+}
+ul {
+    list-style-type:japanese-formal;
+    align-content:center;
+}
+.footer-container {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border-block: solid;
+    padding:1%;
+    background-color: #34495E;
+    height: 200px; /* Height of the footer */
+    background-size: cover;
+    background-position: center center;
+}
+#ul {
+    align-content: center; /*This did not center list*/
+}
+
+/*Media Queries Below*/
+
+@media screen and (max-width: 800px) {
+    body {
+        background-color: blue;
+        margin: 0;
+        width: 100vw;
+        height: 100vh;
+    }
+}
+@media screen and (max-width: 800px) {
+    #div {
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+    #p0{
+    font-family: Arial;
+    font-size: 30px;
+    color: white;
+}
+
+@media screen and (max-width: 800px) {
+    #p1 {
+        text-align: center;
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 800px){
+    #p2{
+    background-color: purple;
+    }
+}
+@media screen and (max-width: 800px) {
+    #p3 {
+        background-color: blue;
+    }
+}
+@media screen and (max-width: 800px){
+    #p4 {
+        background-color: #ff0000;
+    }
+}
+@media screen and (max-width: 800px) {
+    #picture {
+        grid-area: photo;
+    }
+}
+@media screen and (max-width: 800px) {
+    #picture > img {
+        object-fit: cover;
+        width: 50%;
+    }
+}
+@media screen and (max-width: 800px) {
+    #container {
+        display: grid;
+        background-color: darkgrey;
+        padding: 50px;
+        padding-block: auto;
+    }
+}
+@media screen and (max-width: 800px) {
+    #picture {
+        padding: 50px;
+    }
+}
+@media screen and (max-width: 800px) {
+    #container2 {
+        display: grid;
+        grid-template-columns: 23%;
+        padding: 20px;
+        padding-block: auto;
+    }
+}
+@media screen and (max-width: 800px) {
+    #container3 {
+        display: grid;
+        grid-template-columns: 20%;
+        padding: 20px;
+        padding-block: auto;
+    }
+}
+@media screen and (max-width: 800px) {
+    #container4 {
+        display: grid;
+        grid-template-columns: 23%;
+        padding: 20px;
+        padding-block: auto;
+    }
+}
+@media screen and (max-width: 800px) {
+    #select {
+        display: grid;
+        grid-template-columns: 23%;
+        background-color: white;
+        padding: 20px;
+        padding-block: auto;
+    }
+}
+@media screen and (max-width: 800px) {
+    #label {
+        position: center, center;
+        color: tan;
+    }
+}
+@media screen and (max-width: 800px) {
+    #footer-container {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        border-block: solid;
+        padding: 1%;
+        background-color: deeppink;
+        height: 190px; /* Height of the footer */
+        background-size: cover;
+        background-position: center center;
+        background-image: url(https://theadultman.com/fashion-and-style/best-affordable-watch-brands/)
+    }
+
+    @media screen and (max-width: 800px) {
+        #ul {
+            align-content:center;
+        }
+    }
+}
+
+
